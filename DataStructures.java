@@ -161,6 +161,17 @@ public class DataStructures {
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>((Integer a, Integer b) -> {
             return b.compareTo(a);
         });
+        
+        // MINHEAP
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>((Integer a, Integer b) -> {
+            return a.compareTo(b);
+        });
+        
+        // MAXHEAP
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>((Integer a, Integer b) -> {
+            return b.compareTo(a);
+        });
+        
         pq.add(12); // inserts element into the Priority queue
         pq.add(12);
         pq.add(34);
