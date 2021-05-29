@@ -237,6 +237,12 @@ public class DataStructures {
             Integer key = it.next();
             System.out.println("Key: " + key + " value: " + ahmap.get(key));
         }
+        
+        // Method 3
+        System.out.println("#Method 3");
+        for(int key: ahmap.keySet()) {
+            String val = ahmap.get(key)
+        }
 
         // TreeMap
 
