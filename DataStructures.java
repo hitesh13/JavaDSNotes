@@ -168,7 +168,7 @@ public class DataStructures {
         });
         
         // MAXHEAP
-        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>((Integer a, Integer b) -> {
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>((Integer a, Integer b) -> {
             return b.compareTo(a);
         });
         
@@ -241,7 +241,7 @@ public class DataStructures {
         // Method 3
         System.out.println("#Method 3");
         for(int key: ahmap.keySet()) {
-            String val = ahmap.get(key)
+            String val = ahmap.get(key);
         }
 
         // TreeMap
@@ -260,7 +260,7 @@ public class DataStructures {
             System.out.println("Key: " + entry.getKey() + " value: " + entry.getValue());
         }
 
-        ArrayList<Integer> graph[] = new ArrayList<>[7];
+        ArrayList<Integer> graph[] = new ArrayList[7];
 
     }
 }
